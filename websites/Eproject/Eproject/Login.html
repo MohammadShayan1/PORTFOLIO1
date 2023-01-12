@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Pleasant Tours</title>
+    <link rel="icon" type="image/x-icon" href="./img/logo-white.png">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Font Awesome -->
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <!-- Navbar Start -->
+        <section style="background-color: #aafccc;">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                    <a class="navbar-brand" href="./index.html">
+                        <img src="./img/logo-white.png" alt="" width="75" height="75"
+                            class="d-inline-block align-text-top">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link " aria-current="page" href="./index.html"><i class="fa fa-home"
+                                        aria-hidden="true"></i> Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./products.html"><i class="fa fa-list" aria-hidden="true"></i>
+                                    Products</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./contactus.html"><i class="fa fa-address-book"
+                                        aria-hidden="true"></i>
+                                    Contact
+                                    Us</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link active" href="./Login.html"><i class="fa fa-sign-in" aria-hidden="true"></i>
+                                    SignUp/SignIn</a>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav d-flex">
+                            <li class="nav-item me-2">
+                                <a class="nav-link" href="https://goo.gl/maps/ZPGqtbVrq4T6bFBt7" target="_blank"><i
+                                        class="fas fa-location-arrow fa-lg fa-fw"></i> Location</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <!-- Navbar End -->
+    </header>
+    <main>
+        <div class="bgimg">
+            <!-- sign in -->
+            <section class="sign_in">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5 colorteal rounded-4 my-5">
+                            <form class="p-4  needs-validation"novalidate>
+                                <h1 class="text-center">LogIn</h1>
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" required id="exampleInputEmail1"
+                                        aria-describedby="emailHelp">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                                    <input type="password" required class="form-control" id="exampleInputPassword1">
+                                </div>
+                                <div class="invalid-feedback">
+                                    Please select a valid state.
+                                  </div>
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input" required id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+                                </div>
+                                <div class="text-center">
+                                    <button type="submit" class="btn btn-warning w-75" id="loginbtn">Login</button>
+                                </div>
+                                <a href="#" class="text-dark">
+                                    <p class="py-4"><u>ForgetPassword?</u></p>
+                                </a>
+                            </form>
+                        </div>
+                        <!-- sign in -->
+                        <div class="col-md-2"></div>
+                        <!-- sign up -->
+
+                        <div class="col-md-5 colorteal rounded-4 my-5">
+                            <section class="sign_up">
+                                <form class="p-4 needs-validation" novalidate>
+                                    <h1 class="text-center">Sign Up</h1>
+                                    <div class="mb-3">
+                                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                        <input type="email" required class="form-control" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp">
+                                        <div id="emailHelp" class="form-text">We'll never share your email with anyone
+                                            else.
+                                        </div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="inputPassword5" class="form-label">Password</label>
+                                        <input type="password" required id="inputPassword5" class="form-control"
+                                            aria-describedby="passwordHelpBlock">
+                                        <div id="passwordHelpBlock" class="form-text">
+                                            Your password must be 8-20 characters long, contain letters and numbers, and
+                                            must not contain
+                                            spaces, special characters, or emoji.
+                                        </div>
+                                    </div>
+                                    <div class="invalid-feedback">
+                                        Please select a valid state.
+                                      </div>
+
+                                    <div class="mb-3">
+                                        <label for="inputPassword5" class="form-label">Confirm Password</label>
+                                        <input type="password" required id="inputPassword5" class="form-control"
+                                            aria-describedby="passwordHelpBlock">
+                                        <div class="mb-3 form-check">
+                                            <input type="checkbox" required class="form-check-input" id="exampleCheck1">
+                                            <label class="form-check-label" for="exampleCheck1">Agree Terms and
+                                                Condition</label>
+                                        </div>
+                                        <div class="text-center">
+                                            <button type="submit" class="btn btn-warning w-75 hoversign"
+                                                id="signbtn">Sign Up</button>
+                                        </div>
+                                </form>
+                            </section>
+                            <!-- sign up -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+    </main>
+    <footer>
+        <section class="foot bg-black">
+            <div class="container">
+                <div class="row text-white">
+                    <div class="col-md-4 py-4">
+                        <hr class="w-75"><img src="./img/Footer-Logo.png" alt="Pleasant Tours Signature" class="w-75">
+                        <hr class="w-75">
+                    </div>
+                    <div class="col-md-4 py-3">
+                        <h5>Useful Links</h5><a class="nav-link active" href="./index.html">
+                            <p><u>Home</u></p>
+                        </a> <a class="nav-link" href="./products.html">
+                            <p><u>Products</u></p>
+                        </a><a class="nav-link" href="./contactus.html">
+                            <p><u> Contact Us</u></p>
+                        </a>
+                        <a class="nav-link" href="./Login.html">
+                            <p><u> SignUp/SignIn</u></p>
+                        </a>
+                    </div>
+                    <div class="col-md-4 py-3">
+                        <h5>Location</h5> <iframe class="w-100"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3619.902629090068!2d67.022052314876!3d24.86717498405077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e6b1566c46f%3A0x65318f4eb62c7aa8!2sAptech%20Computer%20Education%20Garden%20Center!5e0!3m2!1sen!2s!4v1672328717234!5m2!1sen!2s"
+                            style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+    <script src="./Javascript/app.js"></script>
+</body>
+
+</html>

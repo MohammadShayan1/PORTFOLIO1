@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.shuais{
+    background-image: url(../img/shuais.jpg);
+    background-size: cover;
+    height: 10pc;
+    width: 10pc;
+}
+.kashan{
+    background-image: url(../img/kashan.jpg);
+    background-size: cover;
+    height: 10pc;
+    width: 10pc;
+
+}
+.shayan{
+    background-image: url(../img/_MG_0055.jpg);
+    background-size: cover;
+    height: 10pc;
+    width: 10pc;
+
+}
+.abdullah{
+    background-image: url(../img/profile.png);
+    background-size: cover;
+    height: 10pc;
+    width: 10pc;
+}
+.asghar{
+    background-image: url(../img/asghar.jpg);
+    background-size: cover;
+    height: 10pc;
+    width: 10pc;
+}
+
+
+
+/* loginpage */
+header{
+    height: 102px;
+}
+.bgimg{
+    background-image: url(../img/bg\ img\ login.jpg);
+    background-size: cover;
+}
+.colorteal{
+    background-color: #aafccc;
+}
+
+.Products {
+
+    width: 65%;
+    margin-left: 10pc;
+  }
+
+  .contactbgimg{
+    background-image: url(../img/contact.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
