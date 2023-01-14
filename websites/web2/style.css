@@ -1,0 +1,10 @@
+body{
+      font-family: 'Gotham Pro Medium Italic', sans-serif;
+}
+.main_banner{
+    background-image: url(./img/vipp-610-sofa-loft-saxophonecol002-lifestyle-02-web2_0.jpg);
+    background-repeat: no-repeat;
+    /* height: 1080px; */
+    background-size: 100%;
+    height:800px;
+}
