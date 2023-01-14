@@ -23,3 +23,9 @@ body {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
+
+.mainbannercontact{
+  background-image: url(../img/contact.jpg);
+  background-size: cover;
+  width: 100pc;
+}
