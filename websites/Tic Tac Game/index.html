@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tic Tac Toe</title>
+    <link rel="shortcut icon" href="./tic-tac-toe.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="ticTacToe text-center">
+        <img src="./tic-tac-toe.png" alt="tic tac toe logo" width="100pc">
+        <h1 class="">Tic Tac Toe</h1>
+        <h3 id="turns"></h3>
+        <div class="game">
+            <table>
+                <tr>
+                    <td>
+                        <button id="1" onclick="pressbtn(1)"></button>
+                    </td>
+                    <td>
+                        <button id="2" onclick="pressbtn(2)"></button>
+                    </td>
+                    <td>
+                        <button id="3" onclick="pressbtn(3)"></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button id="4" onclick="pressbtn(4)"></button>
+                    </td>
+                    <td>
+                        <button id="5" onclick="pressbtn(5)"></button>
+                    </td>
+                    <td>
+                        <button id="6" onclick="pressbtn(6)"></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button id="7" onclick="pressbtn(7)"></button>
+                    </td>
+                    <td>
+                        <button id="8" onclick="pressbtn(8)"></button>
+                    </td>
+                    <td>
+                        <button id="9" onclick="pressbtn(9)"></button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="result">
+            <h1 id="result"></h1>
+            <button class="startBtn" onclick="refresh()"> Reset</button>
+        </div>
+    </div>
+    <script src="./jquery-3.6.3.min.js"></script>
+    <script src="./app.js"></script>
+</body>
+
+</html>
