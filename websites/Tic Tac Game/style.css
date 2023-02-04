@@ -13,6 +13,7 @@ button{
     background: #6deb61;
     color: #f34b4b;
     font-weight: 1000;
+    transition: 500ms;
 }
 button:hover{
     background: #19df07;
@@ -25,6 +26,7 @@ table {
     height: 2pc;
     border-radius: 5pc;
     color: black;
+    transition: 500ms;
 }   
 .startBtn:hover{
     background: #19df07;
