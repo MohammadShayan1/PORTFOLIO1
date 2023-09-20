@@ -28,12 +28,18 @@
         </div>
 
         <h1 class="mb-4">Weather App</h1>
+        <div class="weather centered-bold">
+            <h2><i class="fas fa-map-marker-alt"></i> Weather for Your Location</h2>
+            <div class="weather-details">
+                <!-- Weather details will be displayed here -->
+            </div>
+        </div>
         <!-- Input field for location -->
         <div class="form-group">
             <label for="location">Enter Location:</label>
             <input type="text" class="form-control" id="location" placeholder="E.g., Karachi">
         </div>
-        <button class="btn btn-primary orange-col" onclick="getWeather()">Get Weather</button>
+        <button class="btn orange-col" onclick="getWeather()">Get Weather</button>
 
         <!-- Display weather information -->
 
