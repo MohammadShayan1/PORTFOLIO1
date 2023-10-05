@@ -1,0 +1,51 @@
+/* <!-- Add custom CSS for background images --> */
+        /* Set a background image for the entire page */
+        body {
+            background-image: url('Images/background.jpg'); /* Replace with your background image URL */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+          /* Style for the ticker container */
+    .ticker {
+        background-color: #d27139; /* Background color for the ticker */
+        color: #fff; /* Text color */
+        padding: 5px 0; /* Padding for the ticker content */
+        text-align: center;
+    }
+
+    /* Style for the marquee text */
+    .ticker marquee {
+        font-size: 16px; /* Font size for the ticker text */
+        padding: 5px 20px; /* Padding for the ticker text */
+    }
+
+        /* Style the container with a background color and padding */
+        .container {
+            background-color: rgba(255, 255, 255, 0.449);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Style for the logo image */
+        #logo {
+        display: block;
+        margin: 0 auto;
+        max-width: 200px; /* Adjust the size as needed */
+        height: auto;
+    }
+    .fas {
+        font-size: 24px; /* Adjust the icon size as needed */
+        margin-right: 10px; /* Add spacing between icon and text */
+    }
+    .centered-bold {
+            text-align: center;
+            font-weight: bold;
+        }
+    .orange-col{
+            background-color: #d27139;
+        }
+    .orange-col:hover{
+            background-color: #fac247;
+        }
